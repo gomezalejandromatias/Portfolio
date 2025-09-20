@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <style>
+    body {
+      background-color: #000; /* fondo negro */
+      color: #fff; /* texto blanco */
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .contacto {
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .contacto h1 {
+      color: #00d4ff; /* celeste eléctrico */
+      text-shadow: 0 0 10px #00d4ff; /* brillo */
+      margin-bottom: 20px;
+    }
+
+    .contacto p {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+
+    .contacto a {
+      color: #ffcc00; /* amarillo que resalta */
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .contacto a:hover {
+      text-shadow: 0 0 10px #ffcc00;
+    }
+
+    .redes img {
+      width: 40px;
+      margin: 10px;
+      border-radius: 50%;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .redes img:hover {
+      transform: scale(1.2);
+      box-shadow: 0 0 20px #00ff7f;
+    }
+  </style>
+</head>
+<body>
+<section class="contacto">
+  <h1>Contactos</h1>
+  <p>Puedes comunicarte conmigo a través de:</p>
+
+ 
+  <p>Email: 
+    <a href="mailto:mati.gorriti1@gmail.com">mati.gorriti1@gmail.com</a>
+  </p>
+
+ 
+  <p>Teléfono: 
+    <a href="tel:+5491133153864">+54 9 11 3315-3864</a>
+  </p>
+
+
+  <div class="redes">
+    <a href="https://www.facebook.com" target="_blank" rel="noopener">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+    </a>
+    <a href="https://www.instagram.com" target="_blank" rel="noopener">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+    </a>
+    <a href="https://www.linkedin.com" target="_blank" rel="noopener">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn">
+    </a>
+  </div>
+
+
+  <h2>Formulario de contacto</h2>
+  <form class="formulario">
+    <input type="text" name="nombre" placeholder="Tu nombre" required>
+    <input type="email" name="correo" placeholder="Tu email" required>
+    <textarea name="mensaje" placeholder="Escribe tu mensaje..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+     
+   
+
+</body>
+</html>
